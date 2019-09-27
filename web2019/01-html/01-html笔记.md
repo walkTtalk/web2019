@@ -93,7 +93,7 @@ blank就是“空白”的意思，就表示新建一个空白窗口。为啥有
 
 ### 1、无序列表`<ul>`，无序列表中的每一项是`<li>`
 
-### [范例效果图](https://irwenjing.github.io/web2019/01-html/demo.html)
+### [代码效果](https://irwenjing.github.io/web2019/web2019/01-html/demo.html)
 
 **注意**：
 
@@ -104,36 +104,35 @@ blank就是“空白”的意思，就表示新建一个空白窗口。为啥有
 **属性:**
 
 type="属性值"。属性值可以选： disc(实心原点，默认)，square(实心方点)，circle(空心圆)。 效果如下：
-
-### [范例效果图](https://irwenjing.github.io/web2019/01-html/demo.html)
+### [代码效果](https://irwenjing.github.io/web2019/web2019/01-html/demo.html)
 
 不光是`<ul>`标签有type属性，`<ul>`里面的`<li>`标签也有type属性（虽然说这种写法很少见）。效果如下：
 
-### [范例效果图](https://irwenjing.github.io/web2019/01-html/demo.html)
+### [代码效果](https://irwenjing.github.io/web2019/web2019/01-html/demo.html)
 
 注意：项目符号可以是图片，但是通过CSS设置.
 
 当然了，列表之间是可以**嵌套**的。我们来举个例子： 代码
 
-### [代码](https://https://github.com/irwenjing/web2019/demo.html)
+### [代码](https://github.com/irwenjing/web2019/blob/master/web2019/01-html/demo.html)
 
-### [范例效果图](https://irwenjing.github.io/web2019/01-html/demo.html)
+### [代码效果](https://irwenjing.github.io/web2019/web2019/01-html/demo.html)
 
 声明：ul的儿子，只能是li。但是li是一个容器级标签，**li里面什么都能放，甚至可以再放一个ul**。
 
 ## 2、有序列表`<Ol>`，里面的每一项是`<li>`
 
-### [代码](https://https://github.com/irwenjing/web2019/demo.html)
+### [代码](https://github.com/irwenjing/web2019/blob/master/web2019/01-html/demo.html)
 
-### [范例效果图](https://irwenjing.github.io/web2019/01-html/demo.html)
+### [代码效果](https://irwenjing.github.io/web2019/web2019/01-html/demo.html)
 
 **属性**
 
 type="属性值"。属性值可以是：1(阿拉伯数字，默认)、a、A、i、I。结合start属性表示从几开始。
 
-### [代码](https://https://github.com/irwenjing/web2019/demo.html)
+### [代码](https://github.com/irwenjing/web2019/blob/master/web2019/01-html/demo.html)
 
-### [范例效果图](https://irwenjing.github.io/web2019/01-html/demo.html)
+### [代码效果](https://irwenjing.github.io/web2019/web2019/01-html/demo.html)
 
 
 和无序列表一样，有序列表也是可以嵌套的哦，这里就不举类似的例子了。
@@ -142,7 +141,7 @@ ol和ul就是语义不一样，怎么使用都是一样的。 ol里面只能有l
 
 ol这个东西用的不多，如果想表达顺序，大家一般也用ul。举例如下：
 
-### [代码](https://https://github.com/irwenjing/web2019/demo.html)
+### [代码](https://github.com/irwenjing/web2019/blob/master/web2019/01-html/demo.html)
 
 ## 3. 定义列表`<dl>`
 
@@ -158,9 +157,9 @@ ol这个东西用的不多，如果想表达顺序，大家一般也用ul。举�
 
 举例：
 
-### [代码](https://https://github.com/irwenjing/web2019/demo.html)
+### [代码](https://github.com/irwenjing/web2019/blob/master/web2019/01-html/demo.html)
 
-### [范例效果图](https://irwenjing.github.io/web2019/01-html/demo.html)
+### [代码效果](https://irwenjing.github.io/web2019/web2019/01-html/demo.html)
 
 上图可以看出，定义列表表达的语义是两层：
 
@@ -172,15 +171,15 @@ ol这个东西用的不多，如果想表达顺序，大家一般也用ul。举�
 
 定义列表用法非常灵活，可以一个dt配很多dd：
 
-### [代码](https://https://github.com/irwenjing/web2019/demo.html)
+### [代码](https://github.com/irwenjing/web2019/blob/master/web2019/01-html/demo.html)
 
 还可以拆开，让每一个dl里面只有一个dt和dd，这样子感觉清晰一些：
 
-### [代码](https://https://github.com/irwenjing/web2019/demo.html)
+### [代码](https://github.com/irwenjing/web2019/blob/master/web2019/01-html/demo.html)
 
 真实案例：（京东最下方）
 
-### [代码](https://https://github.com/irwenjing/web2019/demo.html)
+### [代码效果](https://irwenjing.github.io/web2019/web2019/01-html/demo.html)
 
 
 dt、dd都是容器级标签，想放什么都可以。所以，现在就应该更加清晰的知道：用什么标签，不是根据样子来决定，而是语义（语义本质上是结构）。
