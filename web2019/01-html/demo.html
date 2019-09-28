@@ -170,5 +170,182 @@
         </dl>
 
 
+        <!-- 表格标签 -->
+        <table>
+            <tr>
+                <td>生命壹号</td>
+                <td>23</td>
+                <td>男</td>
+                <td>黄冈</td>
+            </tr>
+            <tr>
+                <td>许崇</td>
+                <td>29</td>
+                <td>男</td>
+                <td>安徽</td>
+            </tr>
+            <tr>
+                <td>邓紫棋</td>
+                <td>23</td>
+                <td>女</td>
+                <td>香港</td>
+            </tr>
+        </table>
+
+        <!-- 单元格带边框的效果 -->
+
+        <table border="1">
+            <tr>
+                <td>生命壹号</td>
+                <td>23</td>
+                <td>男</td>
+                <td>黄冈</td>
+            </tr>
+            <tr>
+                <td>许崇</td>
+                <td>29</td>
+                <td>男</td>
+                <td>安徽</td>
+            </tr>
+            <tr>
+                <td>邓紫棋</td>
+                <td>23</td>
+                <td>女</td>
+                <td>香港</td>
+            </tr>
+        </table>
+
+        <!-- 单元格横向合并效果举例 -->
+        <table border="1">
+            <tr>
+                <td>生命壹号</td>
+                <td>23</td>
+                <td>男</td>
+                <td>黄冈</td>
+            </tr>
+            <tr>
+                <td>许崇</td>
+                <td>29</td>
+                
+                <td colspan="2">安徽</td>
+            </tr>
+        </table>
+
+        <!-- 单元格纵向合并效果举例 -->
+        <table border="1">
+            <tr>
+                <td>生命壹号</td>
+                <td>23</td>
+                <td>男</td>
+                <td rowspan="2">黄冈</td>
+            </tr>
+            <tr>
+                <td>邓紫棋</td>
+                <td>23</td>
+                <td>女</td>
+                <!-- <td>香港</td> -->
+            </tr>
+
+            <!-- 表格的标题 -->
+            <table border="1">
+                <caption align="center">这是表格的标题</caption>
+                <tr>
+                    <td>生命壹号</td>
+                    <td>23</td>
+                    <td>男</td>
+                    <td>黄冈</td>
+                </tr>
+                <tr>
+                    <td>邓紫棋</td>
+                    <td>23</td>
+                    <td>女</td>
+                    <td>香港</td>
+                </tr>
+
+            
+        </table>
+
+
+        <!-- 表单标签 -->
+        <form>
+            姓名：<input value="呵呵" >逗比<br>
+            昵称：<input value="哈哈" readonly=""><br>
+            名字：<input type="text" value="name" disabled=""><br>
+            密码：<input type="password" value="pwd" size="50"><br>
+            性别：<input type="radio" name="gender" value="male" checked="">男
+                  <input type="radio" name="gender" value="female" >女<br>
+            爱好：<input type="checkbox" name="love" value="eat">吃饭
+                  <input type="checkbox" name="love" value="sleep">睡觉
+                  <input type="checkbox" name="love" value="bat">打豆豆
+        </form>
+
+        <!-- 四种按钮举例 -->
+        <form>
+            <input type="button" value="普通按钮"><br>
+            <input type="submit"  value="提交按钮"><br>
+            <input type="reset" value="重置按钮"><br>
+            <input type="image" value="图片按钮1"><br>
+            <input type="image" src="1.jpg" width="800" value="图片按钮2"><br>
+            <input type="file" value="文件选择框">
+        </form>
+
+        <!-- select标签 -->
+        <form>
+            <select>
+                <option>小学</option>
+                <option>初中</option>
+                <option>高中</option>
+                <option>大学</option>
+                <option selected="">研究生</option>
+            </select>
+            <br><br><br>
+    
+            <select size="3">
+                <option>小学</option>
+                <option>初中</option>
+                <option>高中</option>
+                <option>大学</option>
+                <option>研究生</option>
+            </select>
+            <br><br><br>
+    
+            <select multiple="">
+                <option>小学</option>
+                <option>初中</option>
+                <option selected="">高中</option>
+                <option selected="">大学</option>
+                <option>研究生</option>
+            </select>
+            <br><br><br>
+    
+        </form>
+
+
+        <form>
+
+            <fieldset>
+            <legend>账号信息</legend>
+            姓名：<input value="呵呵" >逗比<br>
+            密码：<input type="password" value="pwd" size="50"><br>
+            </fieldset>
+    
+            <fieldset>
+            <legend>其他信息</legend>
+            性别：<input type="radio" name="gender" value="male" checked="">男
+                  <input type="radio" name="gender" value="female" >女<br>
+            爱好：<input type="checkbox" name="love" value="eat">吃饭
+                  <input type="checkbox" name="love" value="sleep">睡觉
+                  <input type="checkbox" name="love" value="bat">打豆豆
+            </fieldset>
+    
+        </form>
+
+
+
+
+
+
+
+
 </body>
 </html>
